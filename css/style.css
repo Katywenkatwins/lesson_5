@@ -5,7 +5,7 @@
 
 /*--------- Підключення шрифтів ---------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Lato:wght@700&display=swap');
 
 @font-face {
 	font-family: "Larsseit";
@@ -56,13 +56,14 @@ img {
 	font-size: 50px;
 	color: #ffe366;
 	text-decoration: underline;
-	font-family: "Lato";
+	font-family: "Larsseit";
+	font-weight: 900;
 	text-align: center;
 	text-shadow: 2px 2px 10px rgb(0, 0, 0);
 }
 
 .maintext *{
-	color: aqua;
+	color: rgb(255, 255, 255);
 	}
 
 	p.head{ text-align: center;
@@ -155,7 +156,9 @@ a {
 		color: #6e028e; 
 }
 
-
+div{
+	margin: 10px;
+}
 
 /* ======================================================== */
 /* --------------- CSS-властивості блоків ----------------- */
@@ -171,6 +174,7 @@ border-box - значення розмірів враховують відсту
 
 
 .block {
+	box-sizing: border-box;
 	background-color: #a699b3;
 	width: 800px;
 	padding: 10px;
@@ -179,6 +183,8 @@ border-box - значення розмірів враховують відсту
 
 .inline {
 	background-color: #a6b99c;
+	line-height: 1.2;
+	padding: 0 10px 0 10px;
 }
 
 
